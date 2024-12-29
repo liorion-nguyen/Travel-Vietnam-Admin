@@ -1,90 +1,43 @@
-## [Devias Kit - React](https://material-kit-react.devias.io/)
+![Logo](./public/assets/logo.svg)
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+# Travel Vietnam Admin - Website Quản Lý Du Lịch Việt Nam
 
-[![Devias Kit - React](https://github.com/devias-io/material-kit-react/blob/main/public/assets/thumbnail.png)](https://material-kit-react.devias.io/)
+## Mô Tả:
 
-> Free React Admin Dashboard made with [MUI's](https://mui.com) components, [React](https://reactjs.org) and of course [Next.js](https://github.com/vercel/next.js) to boost your app development process!
+Travel Vietnam Admin là hệ thống quản lý dành cho các quản trị viên của website Travel Vietnam. Hệ thống giúp quản lý các tour du lịch, điểm đến, khách hàng và các hoạt động liên quan đến du lịch một cách dễ dàng và hiệu quả. Với giao diện quản lý trực quan, Travel Vietnam Admin cung cấp các công cụ mạnh mẽ để theo dõi và quản lý dữ liệu về tour du lịch, khách hàng và các số liệu thống kê.
 
-## Pages
+**Các Tính Năng Chính:**
+- **Quản Lý Khách Hàng (Customers):**  
+  Quản lý thông tin khách hàng, lịch sử đặt tour, đánh giá và phản hồi từ khách hàng.
 
-- [Dashboard](https://material-kit-react.devias.io)
-- [Customers](https://material-kit-react.devias.io/dashboard/customers)
-- [Integrations](https://material-kit-react.devias.io/dashboard/integrations)
-- [Settings](https://material-kit-react.devias.io/dashboard/settings)
-- [Account](https://material-kit-react.devias.io/dashboard/account)
-- [Sign In](https://material-kit-react.devias.io/auth/sign-in)
-- [Sign Up](https://material-kit-react.devias.io/auth/sign-up)
-- [Reset Password](https://material-kit-react.devias.io/auth/reset-password)
+- **Quản Lý Khách Sạn (Hotels):**  
+  Quản lý danh sách khách sạn, thông tin chi tiết và các gói phòng, cập nhật tình trạng phòng và giá phòng.
 
-## Free Figma Community File
+- **Quản Lý Tour Du Lịch (Tours):**  
+  Quản lý các tour du lịch, thông tin chi tiết về lịch trình, điểm đến, giá cả và các khuyến mãi đi kèm.
 
-- [Duplicate File](https://www.figma.com/file/b3L1Np4RYiicZAOMopHNkm/Devias-Dashboard-Design-Library-Kit)
+- **Quản Lý Đặt Tour (Bookings):**  
+  Quản lý các đơn đặt tour, xác nhận và theo dõi tình trạng đơn hàng của khách hàng, bao gồm các chi tiết như ngày, số lượng khách và trạng thái thanh toán.
 
-## Upgrade to PRO Version
+- **Quản Lý Giảm Giá (Discounts):**  
+  Quản lý các mã giảm giá, khuyến mãi cho tour, khách sạn hoặc dịch vụ khác, thiết lập các điều kiện và hạn sử dụng.
 
-We also have a pro version of this product which bundles even more pages and components if you want
-to save more time and design efforts :)
+- **Quản Lý Vai Trò Người Dùng (Roles):**  
+  Xác định và quản lý các vai trò của người dùng, phân quyền truy cập hệ thống cho từng vai trò khác nhau.
 
-| Free Version (this one)  | [Devias Kit Pro](https://mui.com/store/items/devias-kit-pro/)                |
-| ------------------------ | :--------------------------------------------------------------------------- |
-| **8** Pages              | **80+** Pages                                                                |
-| ✔ Custom Authentication | ✔ Authentication with **Amplify**, **Auth0**, **Firebase** and **Supabase** |
-| -                        | ✔ Vite Version                                                              |
-| -                        | ✔ Dark Mode Support                                                         |
-| -                        | ✔ Complete Users Flows                                                      |
-| -                        | ✔ Premium Technical Support                                                 |
+- **Quản Lý Phòng (Rooms):**  
+  Quản lý các loại phòng khách sạn, số lượng phòng có sẵn, tình trạng phòng và giá phòng theo từng thời điểm.
 
-## Quick start
+- **Cài Đặt Hệ Thống (Settings):**  
+  Quản lý các thiết lập hệ thống, bao gồm cấu hình website, thông tin liên hệ, cài đặt thông báo và các tùy chọn bảo mật.
 
-- Clone the repo: `git clone https://github.com/devias-io/material-kit-react.git`
-- Make sure your Node.js and npm versions are up to date
-- Install dependencies: `npm install` or `yarn`
-- Start the server: `npm run dev` or `yarn dev`
-- Open browser: `http://localhost:4000`
+- **Quản Lý Tài Khoản (Account):**  
+  Quản lý tài khoản người dùng, thay đổi mật khẩu, cập nhật thông tin cá nhân và các thiết lập liên quan đến bảo mật tài khoản.
+  
+## Công Nghệ Sử Dụng:
 
-## File Structure
+- [React:](https://reactjs.org/) Thư viện JavaScript phổ biến để xây dựng giao diện người dùng, giúp phát triển các ứng dụng web nhanh chóng và hiệu quả.
+- [Redux:](https://redux.js.org/) Thư viện quản lý trạng thái, giúp quản lý dữ liệu và trạng thái của ứng dụng.
+- [Material-UI:](https://mui.com/) Bộ công cụ giao diện người dùng cho React, cung cấp các thành phần UI đẹp mắt và dễ sử dụng.
 
-Within the download you'll find the following directories and files:
-
-```
-┌── .editorconfig
-├── .eslintrc.js
-├── .gitignore
-├── CHANGELOG.md
-├── LICENSE.md
-├── next-env.d.ts
-├── next.config.js
-├── package.json
-├── README.md
-├── tsconfig.json
-├── public
-└── src
-	├── components
-	├── contexts
-	├── hooks
-	├── lib
-	├── styles
-	├── types
-	└── app
-		├── layout.tsx
-		├── page.tsx
-		├── auth
-		└── dashboard
-```
-
-## Resources
-
-- More freebies like this one: https://devias.io
-
-## Reporting Issues:
-
-- [Github Issues Page](https://github.com/devias-io/material-kit-react/issues)
-
-## License
-
-- Licensed under [MIT](https://github.com/devias-io/material-kit-react/blob/main/LICENSE.md)
-
-## Contact Us
-
-- Email Us: support@deviasio.zendesk.com
+## [Link Website](https://travel-vietnam-admin.vercel.app/)
